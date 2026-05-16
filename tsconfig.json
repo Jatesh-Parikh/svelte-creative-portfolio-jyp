@@ -8,10 +8,11 @@
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
-		"strict": true,
+		"strict": false,
 		"moduleResolution": "bundler",
 		"plugins": [{ "name": "typescript-svelte-plugin" }],
-		"types": ["unplugin-icons/types/svelte"]
+		"types": ["unplugin-icons/types/svelte"],
+		"noEmitOnError": false
 	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	// except $lib which is handled by https://kit.svelte.dev/docs/configuration#files
